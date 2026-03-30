@@ -1,9 +1,3 @@
-Para fechar com chave de ouro, o `README.md` precisa ser direto, visual e explicar como a extensão facilita a vida do usuário. Como agora temos suporte a vários idiomas, o README deve refletir esse profissionalismo.
-
-Aqui está um modelo completo em Markdown:
-
----
-
 ```markdown
 # 🔍 UFinder for Ulauncher
 
@@ -71,5 +65,3 @@ Como agora o código depende da pasta `/translations`, certifique-se de que ao s
 * `manifest.json`
 * `translations/` (com todos os arquivos .json dentro)
 * `images/` (com todos os ícones `.png`)
-
-**Deseja que eu escreva o arquivo `LICENSE` (MIT) para você deixar o repositório completo?**
