@@ -38,4 +38,5 @@ After installing, you can customize the extension in the preferences:
 | Default action   | `Open` (opens the file) or `Reveal` (opens the folder)   | Open    |
 ---
 
+- Icons from the Papirus Icon Theme
 👨‍💻 Developed by **Xavier**
