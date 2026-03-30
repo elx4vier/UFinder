@@ -1,4 +1,4 @@
-````markdown
+```markdown
 # 🔍 UFinder for Ulauncher
 
 **UFinder** é uma extensão de busca de arquivos ultra-rápida para o Ulauncher. Ela indexa sua pasta Home em segundo plano, permitindo que você encontre documentos, imagens, pastas e arquivos de sistema instantaneamente, sem travar a interface.
@@ -10,41 +10,41 @@
 
 ## ✨ Funcionalidades
 
-- ⚡ **Busca em tempo real:** Indexação inteligente que não consome sua CPU  
-- 📂 **Reconhecimento de Pastas do Sistema:** Ícones e descrições personalizadas para Desktop, Downloads, Documentos, etc.  
-- 🌍 **Internacionalização (i18n):** Suporte automático para Português, Inglês, Espanhol, Alemão, Francês e Russo  
-- 🖼️ **Preview de Ícones:** Ícones específicos para PDFs, Imagens, Músicas, Vídeos e Planilhas  
-- ⚙️ **Ações Customizáveis:** Escolha entre abrir o arquivo diretamente ou revelar a pasta no seu gerenciador de arquivos  
+- ⚡ **Busca em tempo real**: Indexação inteligente que não consome sua CPU
+- 📂 **Reconhecimento de Pastas do Sistema**: Ícones e descrições personalizadas para Desktop, Downloads, Documentos, etc.
+- 🌍 **Internacionalização (i18n)**: Suporte automático para Português, Inglês, Espanhol, Alemão, Francês e Russo
+- 🖼️ **Preview de Ícones**: Ícones específicos para PDFs, Imagens, Músicas, Vídeos e Planilhas
+- ⚙️ **Ações Customizáveis**: Escolha entre abrir o arquivo diretamente ou revelar a pasta no seu gerenciador de arquivos
 
 ---
 
 ## 🚀 Instalação
 
-1. Abra as preferências do Ulauncher  
-2. Vá em **Extensions → Add extension**  
+1. Abra as preferências do Ulauncher
+2. Vá em **Extensions → Add extension**
 3. Cole a URL do repositório:
 
-```text
-https://github.com/seu-usuario/ufinder
-````
+   ```
+   https://github.com/seu-usuario/ufinder
+   ```
 
 ---
 
 ## 🛠️ Configuração
 
-Após instalar, você pode ajustar as preferências:
+Após instalar, você pode ajustar as preferências da extensão:
 
-| Opção              | Descrição                                                     | Padrão |
-| ------------------ | ------------------------------------------------------------- | ------ |
-| **Keyword**        | Atalho para ativar a busca                                    | `f`    |
-| **Results limit**  | Quantidade de itens exibidos                                  | `9`    |
-| **Default action** | `Open` (abre o arquivo) ou `Reveal` (abre a pasta do arquivo) | `Open` |
+| Opção            | Descrição                                           | Padrão |
+|------------------|-----------------------------------------------------|--------|
+| Keyword          | Atalho para ativar a busca                          | `f`    |
+| Results limit    | Quantidade de itens exibidos                        | 9      |
+| Default action   | Open (abre o arquivo) ou Reveal (abre a pasta)      | Open   |
 
 ---
 
 ## 📁 Estrutura de Tradução
 
-A extensão detecta automaticamente o idioma do sistema. Para adicionar um novo idioma, crie um arquivo `.json` na pasta `/translations`:
+A extensão detecta automaticamente o idioma do sistema. Para adicionar um novo idioma, crie um arquivo `.json` na pasta `translations/`:
 
 ```text
 translations/
@@ -60,7 +60,7 @@ translations/
 
 ## 📝 Licença
 
-Distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais informações.
+Distribuído sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais informações.
 
 ---
 
@@ -69,3 +69,7 @@ Distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais informaçõe
 Desenvolvido por **Xavier**
 
 ```
+
+Agora deve ficar perfeito no GitHub.
+
+Quer que eu faça uma versão mais "profissional" ainda (com mais badges, seção de demo, screenshot, etc.)? É só dizer "sim" ou "melhora mais".
