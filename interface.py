@@ -114,7 +114,12 @@ class UIBuilder:
         home = os.path.expanduser("~")
 
         if is_dir:
-            description = get_system_description(path, translator) if is_system_folder(path) else os.path.relpath(path, home)
+            # Se for pasta do sistema, usa apenas a descrição traduzida
+            if is_system_folder(path):
+                description = get_system_description(path, translator)
+            else:
+                # Se for pasta comum, mostra o caminho do pai para não repetir o nome da pasta
+                description = os.path.dirname(os.path.relpath(path, home))
         else:
             description = os.path.dirname(os.path.relpath(path, home))
 
