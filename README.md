@@ -39,4 +39,4 @@ After installing, you can customize the extension in the preferences:
 ---
 
 - Icons from the Papirus Icon Theme
-👨‍💻 Developed by **Xavier**
+- Developed by **Xavier**
