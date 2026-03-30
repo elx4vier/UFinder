@@ -2,6 +2,8 @@
 
 **UFinder** is an ultra-fast file search extension for Ulauncher. It indexes your Home folder in the background, allowing you to find documents, images, folders, and system files instantly — without freezing the interface.
 
+![demo gif](images/UFinder.gif)
+
 ---
 
 ## ✨ Features
@@ -36,4 +38,4 @@ After installing, you can customize the extension in the preferences:
 | Default action   | `Open` (opens the file) or `Reveal` (opens the folder)   | Open    |
 ---
 
-Developed by **Xavier**
+👨‍💻 Developed by **Xavier**
