@@ -1,6 +1,7 @@
 import os
 import json
 import time
+import re
 from threading import Thread
 from interface import normalize
 
@@ -75,21 +76,35 @@ class SearchEngine:
 
     def search(self, query, max_results):
         clean_query = normalize(query)
+        # Transforma 'abc' em '.*a.*b.*c.*' para busca fuzzy via Regex
+        fuzzy_pattern = ".*".join(map(re.escape, clean_query))
+        pattern = re.compile(fuzzy_pattern)
+        
         scored = []
         current_index = list(self.index)
 
         for item in current_index:
-            if item['norm'].startswith(clean_query):
+            norm_name = item['norm']
+            
+            # Lógica de prioridade:
+            # 0: Começa com a query (Exato/Início)
+            # 1: Contém a query (Substring)
+            # 2: Combinação Fuzzy (Caracteres em ordem)
+            if norm_name.startswith(clean_query):
                 score = 0
-            elif clean_query in item['norm']:
+            elif clean_query in norm_name:
                 score = 1
+            elif pattern.search(norm_name):
+                score = 2
             else:
                 continue
 
             scored.append((score, item))
 
+            # Mantém o limite de processamento para performance
             if len(scored) > 500:
                 break
 
+        # Ordena por score (menor é melhor) e depois por data (mais recente)
         scored.sort(key=lambda x: (x[0], -x[1].get('mtime', 0)))
         return [r[1] for r in scored[:max_results]]
