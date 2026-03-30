@@ -1,0 +1,14 @@
+{
+  "home_title": "UFinder",
+  "home_desc": "¿Qué estás buscando?",
+  "no_results_title": "No hay nada por aquí 👀",
+  "no_results_desc": "Intenta buscar otra cosa",
+  "desc_desktop": "Accesos directos y archivos temporales",
+  "desc_documents": "Documentos de texto y PDFs",
+  "desc_downloads": "Archivos descargados de Internet",
+  "desc_pictures": "Fotos y capturas de pantalla",
+  "desc_templates": "Plantillas para nuevos archivos",
+  "desc_music": "Archivos de audio y bibliotecas de sonido",
+  "desc_public": "Archivos compartidos en la red",
+  "desc_videos": "Películas y grabaciones multimedia"
+}

@@ -1,0 +1,47 @@
+{
+  "manifest_version": 2,
+  "required_api_version": "^2.0.0",
+  "name": "UFinder",
+  "description": "Find files and folders in your Home directory, fast",
+  "developer_name": "Xavier",
+  "icon": "images/icon.png",
+
+  "options": {
+    "query_debounce": 0.1
+  },
+
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "UFinder",
+      "default_value": "f",
+      "description": "Find files and folders instantly"
+    },
+    {
+      "id": "max_results",
+      "type": "select",
+      "name": "Results limit",
+      "default_value": "9",
+      "description": "Number of results shown per search",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "id": "action_type",
+      "type": "select",
+      "name": "Default action",
+      "default_value": "open",
+      "description": "Choose what happens when opening a result",
+      "options": [
+        "Open",
+        "Reveal"
+      ]
+    }
+  ]
+}

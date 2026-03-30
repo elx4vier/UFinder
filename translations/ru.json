@@ -1,0 +1,14 @@
+{
+  "home_title": "UFinder",
+  "home_desc": "Что вы ищете?",
+  "no_results_title": "Здесь ничего нет 👀",
+  "no_results_desc": "Попробуйте поискать что-нибудь другое",
+  "desc_desktop": "Ярлыки и временные файлы",
+  "desc_documents": "Текстовые документы и PDF",
+  "desc_downloads": "Файлы, загруженные из интернета",
+  "desc_pictures": "Фотографии и скриншоты",
+  "desc_templates": "Шаблоны для новых файлов",
+  "desc_music": "Аудиофайлы и фонотеки",
+  "desc_public": "Файлы, общие в сети",
+  "desc_videos": "Фильмы и медиазаписи"
+}
