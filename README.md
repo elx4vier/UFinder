@@ -14,7 +14,6 @@
 
 ---
 
-```markdown
 ## 🚀 Installation
 
 1. Open Ulauncher Preferences
@@ -38,5 +37,3 @@ After installing, you can customize the extension in the preferences:
 ---
 
 Developed by **Xavier**
-
-Would you like me to make it **even more professional** with badges (like version, license, downloads), a **Demo** section, **Screenshots**, or a **Features** table with icons? Just say **"yes"** or **"improve more"**.
